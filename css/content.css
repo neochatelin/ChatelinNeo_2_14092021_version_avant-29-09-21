@@ -7,7 +7,12 @@
     grid-template-columns: 3fr 1fr;
     gap: 20px;
 }
-
+#info{
+    background-color: #0064fe;
+    color: white;
+    border: solid black 1px;
+    border-radius: 100%;
+}
 #hebergements{
     background-color: #F2F2F2;
     border-radius: 15px;
@@ -43,7 +48,4 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
-}
-#grid-hebergements article *{
-    max-width: 25%;
 }

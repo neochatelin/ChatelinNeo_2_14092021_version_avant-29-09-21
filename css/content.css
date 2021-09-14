@@ -1,0 +1,35 @@
+#filtres *{
+    margin-left: 20px;
+}
+
+#hebergements_et_populaires{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+#hebergements{
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+#grid-hebergements{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
+#hebergements article *{
+    max-width: 25%;
+}
+#populaires{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    size: auto;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+#populaires article *{
+    max-width: 25%;
+}

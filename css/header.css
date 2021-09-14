@@ -1,0 +1,50 @@
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    padding: 30px 0px 30px 0px;
+}
+header nav div a{
+    top: 2em;
+    padding: 30px;
+    padding-top: 30px;
+    position: relative;
+    color: grey;
+    text-decoration: none;
+}
+header nav div a:nth-child(1){
+    color: #0065FC;
+    border-top: #0065FC solid 3px;
+}
+header nav div a:nth-child(3){
+    color: #0065FC;
+    font-weight: bolder;
+}
+header nav div a:hover{
+    color: #0065FC;
+}
+header form *{
+    vertical-align: middle;
+}
+header form i{
+    background-position: center;
+    padding: 10px;
+    margin-right: -5px;
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    border: 1px grey solid;
+}
+#text-ville{
+    padding: 10px;
+    margin-right: -5px;
+    border-radius: 0;
+    border: 1px grey solid;
+}
+#submit{
+    padding: 10px;
+    border-radius: 0% 10px 10px 0%;
+    border: 1px grey solid;
+    color: white;
+    background-color: #0065FC;
+}

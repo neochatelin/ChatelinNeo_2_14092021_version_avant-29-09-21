@@ -1,0 +1,35 @@
+#populaires{
+    size: auto;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 2em;
+}
+#titre_populaires{
+    display: grid;
+    grid-template-columns: 250px auto 16px;
+    padding: 1em;
+}
+#grid-populaires{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+#grid-populaires article a{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color:black;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+#grid-populaires article a img{
+    border-radius: 15px 0px 0px 15px;
+    width: 128px;
+    height: 136px;
+}
+#grid-populaires article a p{
+    font-size: small;
+}
+#grid-populaires article a div{
+    padding-top: 5px;
+}

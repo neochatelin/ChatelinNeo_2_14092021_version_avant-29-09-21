@@ -1,16 +1,7 @@
-@import url("./content/filtres.css");
 @import url("./content/hebergements.css");
 @import url("./content/populaires.css");
 @import url("./content/activites.css");
-#filtres *{
-    margin-left: 20px;
-}
-#info{
-    background-color: #0064fe;
-    color: white;
-    border: solid black 1px;
-    border-radius: 100%;
-}
+
 #hebergements_et_populaires{
     display: grid;
     grid-template-columns: 3fr 1fr;

@@ -12,11 +12,9 @@
         <header>
             <nav>
                 <img src="./images/logo/Reservia.svg" id="logo">
-                <div>
-                    <a href="">Hébergements</a>
-                    <a href="">Activités</a>
-                    <a href="">s'inscrire</a>
-                </div>
+                <a href="">Hébergements</a>
+                <a href="">Activités</a>
+                <a href="">s'inscrire</a>
             </nav>
             <div>
                 <h2>Trouvez votre hébergement pour des vancances de rêve</h2>
@@ -24,31 +22,31 @@
             </div>
             <form action="index.html" method="get">
                 <i class="fas fa-map-marker-alt"></i>
-                <input type="text" name="ville" id="text-ville" value="Marseille, France">
+                <input type="text" name="ville" id="text-ville" placeholder="ex: Parie, France" value="Marseille, France">
                 <input type="submit" value="Rechercher" id="submit">
             </form>
-        </header>
-        <div id="content">
             <div id="filtres">
                 Filtres
                 <a href="" class="filtre">
                     <i class="fas fa-money-bill-wave"></i>
-                    <p>Economique</p>
+                    <span>Economique</span>
                 </a>
                 <a href="" class="filtre">
                     <i class="fas fa-child"></i>
-                    <p>Familial</p>
+                    <span>Familial</span>
                 </a>
                 <a href="" class="filtre">
                     <i class="fas fa-heart"></i>
-                    <p>Romantique</p>
+                    <span>Romantique</span>
                 </a>
                 <a href="" class="filtre">
                     <i class="fas fa-dog"></i>
-                    <p>Animaux autorisés</p>
+                    <span>Animaux autorisés</span>
                 </a>
             </div>
-            <p class=""><i class="fas fa-info-circle" id='info'></i> Plus de 500 logements sont disponibles dans cette ville</p>
+            <p class="grey"><i class="fas fa-info" id='info'></i> Plus de 500 logements sont disponibles dans cette ville</p>
+        </header>
+        <div id="content">
             <div id="hebergements_et_populaires">
                 <section id="hebergements">
                     <h1>Hébergements a Marseille</h1>
@@ -139,7 +137,7 @@
                             </a>
                         </article>
                     </div>
-                    <button class='boutonTransparent' onclick="afficherPlus()">Afficher plus</button>
+                    <button class='boutonTransparent'>Afficher plus</button>
                 </section>
                 <section id="populaires">
                     <div id="titre_populaires"><h1>Les plus populaires</h1><br><i class="fas fa-chart-line"></i></div>
@@ -202,7 +200,7 @@
                 </section>
             </div>
             <section id="activites">
-                Activités a Marseille
+                <h1>Activités a Marseille</h1>
                 <div id="grid-activites">
                     <article>
                         <a href="">
@@ -218,12 +216,6 @@
                     </article>
                     <article>
                         <a href="">
-                            <img src="./images/activites/iles.jpg" alt="">
-                            <h4>îles du Frioul</h4>
-                        </a>
-                    </article>
-                    <article>
-                        <a href="">
                             <img src="./images/activites/calanques.jpg" alt="">
                             <h4>Parc National des Calanques</h4>
                         </a>
@@ -232,6 +224,12 @@
                         <a href="">
                             <img src="./images/activites/garde.jpg" alt="">
                             <h4>Notre-Dame-de-la-Garde</h4>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="">
+                            <img src="./images/activites/iles.jpg" alt="">
+                            <h4>îles du Frioul</h4>
                         </a>
                     </article>
                     <article>

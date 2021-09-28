@@ -8,12 +8,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
-
 #grid-hebergements article{
     background-color: white;
     border-radius: 15px;
     padding: 5px;
     width: 250px;
+    box-shadow: gray 1px 1px 5px;
 }
 
 #grid-hebergements article img{

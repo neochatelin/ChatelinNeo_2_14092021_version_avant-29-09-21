@@ -59,7 +59,7 @@
 }
 @media only screen and (min-width: 1024px){
     #populaires{
-        width: 400px;
+        width: 405px;
         padding: 1em 1em 2em 1em !important;
         border-radius: 15px;
         order: 1;

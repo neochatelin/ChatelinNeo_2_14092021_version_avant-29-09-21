@@ -1,11 +1,22 @@
-@import url("./content/hebergements.css");
 @import url("./content/populaires.css");
+@import url("./content/hebergements.css");
 @import url("./content/activites.css");
 
 #hebergements_et_populaires{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: auto;
+}
+#activites{
+    margin: auto;
+}
+@media only screen and (min-width: 1024px){
+    #hebergements_et_populaires{
+        flex-direction: row;
+        max-width: 1400px;
+    }
 }
 .S3 *{
     color: #0064fe;

@@ -1,16 +1,29 @@
 footer{
+    padding-top: 2em;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #F2F2F2;
 }
-footer div{
-    padding: 1em 4em 2em 4em;
-    white-space: pre-line;
+.wrapper{
+    background-color: #F2F2F2;
 }
-footer div a{
+.wrapper div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+.wrapper div a{
     color: black;
-    text-decoration: none;
 }
-footer div a:hover{
+.wrapper div a:hover{
     color: grey;
+}
+@media only screen and (min-width: 900px){
+    .wrapper{
+        padding: 0 1em;
+        display: flex;
+        justify-content: space-between;
+        width: 1400px;
+    }
 }

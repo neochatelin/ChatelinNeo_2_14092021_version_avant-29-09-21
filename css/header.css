@@ -1,82 +1,116 @@
 header nav{
-    display: grid;
-    grid-template-columns:auto min-content min-content min-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
 }
-#logo{
-    padding: 30px 0px;
+header nav img{
+    margin-left: 2em;
+    margin-bottom: 2em;
 }
 header nav a{
-    padding: 30px;
-    padding-top: 30px;
-    position: relative;
-    color: grey;
-    text-decoration: none;
+    width: 50%;
+    align-self: center;
 }
 header nav a:nth-child(2){
     color: #0065FC;
-    border-top: #0065FC solid 3px;
-}
-header nav a:nth-child(4){
-    color: #0065FC;
     font-weight: bolder;
+    text-align: right;
+    padding-right: 2em;
+    margin-left: auto;
+    margin-bottom: 2em;
 }
-header nav a:hover{
+header nav a:nth-child(4), header nav a:nth-child(3){
+    text-align: center;
+    padding-bottom: 1em;
+    border-bottom: #63636336 solid 3px;
+    color: black;
+}
+header nav a:nth-child(3):hover, header nav a:nth-child(4):hover{
     color: #0065FC;
+    text-align: center;
+    padding-bottom: 1em;
+    border-bottom: #0065FC solid 3px;
 }
-@media only screen and (min-width: 376px){
-    header form *{
-        vertical-align: middle;
-        font-size: 19px;
-    }
-    header form i{
-        background-position: center;
-        padding: 10px;
-        margin-right: -5px;
-        background-color: #F2F2F2;
-        border-radius: 10px 0 0 10px;
-        border: 1px #F2F2F2 solid;
-    }
-    #text-ville{
-        padding: 10px;
-        margin-right: -5px;
-        border-radius: 0;
-        border: 1px #F2F2F2 solid;
-    }
-    #submit{
-        padding: 10px;
-        border-radius: 0% 10px 10px 0%;
-        border: 1px #F2F2F2 solid;
-        color: white;
-        background-color: #0065FC;
-    }
+
+header div h2{
+    font-weight: bolder;
+    font-size:larger;
+    padding: 0 15px;
 }
+header div p{
+    padding: 0 15px;
+}
+header form{
+    text-align: center;
+}
+header form *{
+    vertical-align: middle;
+    font-size: 19px;
+}
+header form .fa-map-marker-alt{
+    background-position: center;
+    padding: 10px;
+    margin-right: -5px;
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    border: 1px #F2F2F2 solid;
+}
+#text-ville{
+    padding: 9px;
+    margin-right: -5px;
+    border-radius: 0;
+    border: 1px #F2F2F2 solid;
+    padding-left: 20px;
+}
+#submit, #input_submit{
+    padding: 10px;
+    border-radius: 0% 10px 10px 0%;
+    border: none;
+    color: white;
+    background-color: #0065FC;
+}
+#submit, #input_submit{
+    border-radius: 10px;
+    margin-left: -20px;
+}
+#input_submit{
+    display: none;
+}
+
 #filtres{
-    font-weight: bolder;
-    font-size: larger;
-    margin: 2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em 0;
+    font-weight: bold;
+    align-content: center;
 }
 #filtres a{
-    white-space: nowrap;
+    transition: 0.5s;
+    flex-wrap: nowrap;
     border: 2px #F2F2F2 solid;
-    padding: 14px 5px 13px 0;
     border-radius: 30px;
     color: #0065FC;
     margin-left: 2em;
-    transform: scale(1);
+    margin-top: 1em;
+    padding-right: 1em;
 }
 #filtres a i{
+    display: inline-flex;
+    justify-content: center;
+    padding: 1em;
     color: #0065FC;
-    width: 20px;
-    height: 20px;
+    height: 19.2px;
+    width: 19.2px;
     background-color: #deebff;
-    padding: 16px;
     border-radius: 100%;
+    transform: translateX(-1px);
 }
 #filtres a span{
     color: black;
+    background-color: transparent;
 }
 #filtres a:hover span, #filtres a:hover{
-    animation: animation_filtre 0.5s;
+    transition: 0.5s;
     color: white;
     background-color: #0065FC;
 }
@@ -93,6 +127,59 @@ header nav a:hover{
     transform: scaleX(0.5);
     transform: scaleY(0.9);
 }
+header :nth-child(5) {
+    margin: 20px;
+}
+
+@media only screen and (min-width: 500px){
+    header nav{
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-top: 0 !important;
+    }
+    header nav img{
+        margin-top: 1em;
+        margin-right: auto;
+    }
+    header nav a:nth-child(2){
+        width: min-content !important;
+        order: 1;
+        text-align: center;
+        margin-left: 0 !important;
+        margin-top: 1em;
+    }
+    header nav a:nth-child(4), header nav a:nth-child(3){
+        padding-top: 23px;
+        margin-top: -2em;
+        width: 200px;
+        height:max-content;
+        text-align: center;
+        border-bottom:  none;
+        border-top: #63636336 solid 3px;
+        color: black;
+    }
+    header nav a:nth-child(4):hover, header nav a:nth-child(3):hover{
+        color: #0065FC;
+        text-align: center;
+        border-bottom: none;
+        border-top: #0065FC solid 3px;
+    }
+
+    #submit{
+        display: none;
+    }
+    #input_submit{
+        display: initial;
+    }
+    header form{
+        text-align: left;
+    }
+
+    #filtres a{
+        margin-top: 0;
+    }
+}
+
 @keyframes animation_filtre {
     from{
         color: #0065FC;

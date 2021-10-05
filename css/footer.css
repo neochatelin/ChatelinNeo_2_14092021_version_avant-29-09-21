@@ -1,8 +1,7 @@
 footer{
-    display: flex;
     padding-top: 2em;
-    justify-content: center;
     background-color: #F2F2F2;
+    margin: 0 auto;
 }
 .wrapper{
     background-color: #F2F2F2;
@@ -30,7 +29,6 @@ footer{
         width: 1400px;
         max-width: 1400px;
         margin: 0 auto;
-        margin-left: 50px;
     }
     .wrapper div{
         width: 33%;

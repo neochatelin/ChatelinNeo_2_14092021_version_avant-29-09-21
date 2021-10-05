@@ -20,7 +20,7 @@
     margin: 0 20px;
 }
 #grid-populaires article{
-    box-shadow: gray 1px 1px 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
     border-radius: 20px;
     background-color: white;
     margin-bottom: 1em;

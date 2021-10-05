@@ -1,6 +1,6 @@
 footer{
-    padding-top: 2em;
     display: flex;
+    padding-top: 2em;
     justify-content: center;
     background-color: #F2F2F2;
 }
@@ -18,19 +18,21 @@ footer{
 }
 .wrapper div a{
     color: black;
+    padding-bottom: 1em;
 }
 .wrapper div a:hover{
     color: grey;
 }
 @media only screen and (min-width: 900px){
     .wrapper{
-        padding: 0 1em;
         display: flex;
         justify-content: space-between;
         width: 1400px;
-    }
-    
-    .wrapper div:nth-child(3){
+        max-width: 1400px;
+        margin: 0 auto;
         margin-left: 50px;
-    } 
+    }
+    .wrapper div{
+        width: 33%;
+    }
 }

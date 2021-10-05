@@ -7,7 +7,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-content: space-between;
-    margin: auto;
 }
 #activites{
     margin: auto;
@@ -33,4 +32,9 @@
 
 .S5 *{
     color: #0064fe;
+}
+@media only screen and (min-width: 1400px){
+    #hebergements_et_populaires{
+        margin: 0 auto;
+    }
 }

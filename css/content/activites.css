@@ -14,7 +14,7 @@
     height: 190px;
     overflow: hidden;
     border-radius: 20px;
-    box-shadow: gray 1px 1px 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px;
     margin-top: auto;
     margin-bottom: 1em;
     margin-left: auto;
@@ -41,6 +41,7 @@
     #activites h1{
         margin-top: 20px;
         margin-bottom: 20px;
+        margin-left: 20px;
     }
     #grid-activites article{
         width: 250px;
@@ -65,7 +66,6 @@
     #grid-activites article{
         overflow: hidden;
         border-radius: 20px;
-        box-shadow: gray 1px 1px 5px;
         margin-top: auto;
     }
     

@@ -36,6 +36,7 @@
     #grid-activites{
         flex-direction: row;
         justify-content: space-between;
+        margin-right: 0px;
     }
     #activites h1{
         margin-top: 20px;
@@ -43,6 +44,8 @@
     }
     #grid-activites article{
         width: 250px;
+        margin-right: 20px;
+        margin-left: 0px;
     }
 }
 @media only screen and (min-width: 1024px){
@@ -51,13 +54,13 @@
     }
     #activites h1{
         margin-top: 20px;
-        margin-left: 20px;
     }
     #grid-activites{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr 1fr;
         gap: 20px;
+        margin: 20px 0;
     }
     #grid-activites article{
         overflow: hidden;

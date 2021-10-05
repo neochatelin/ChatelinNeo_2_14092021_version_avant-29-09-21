@@ -13,6 +13,9 @@ footer{
     flex-direction: column;
     margin-bottom: 2em;
 }
+.wrapper div strong{
+    margin-bottom: 1em;
+}
 .wrapper div a{
     color: black;
 }

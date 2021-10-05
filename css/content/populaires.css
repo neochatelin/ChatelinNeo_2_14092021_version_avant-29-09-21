@@ -34,6 +34,7 @@
     object-fit: cover;
     border-radius: 15px 0px 0px 15px;
     width: 128px;
+    min-width: 128px;
     height: 136px;
 }
 #grid-populaires article a p{
@@ -58,7 +59,7 @@
 }
 @media only screen and (min-width: 1024px){
     #populaires{
-        width: 30%;
+        width: 400px;
         padding: 1em 1em 2em 1em !important;
         border-radius: 15px;
         order: 1;

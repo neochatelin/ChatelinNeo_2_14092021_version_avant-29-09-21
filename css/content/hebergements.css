@@ -37,9 +37,9 @@
 @media only screen and (max-width: 1023px) and (min-width: 500px){
     #hebergements{
         background-color: #F2F2F2;
-        margin-right: 30px;
         width: 100%;
         border-radius: 15px;
+        margin-right: 1em;
     }
     #grid-hebergements{
         justify-content: space-between;
@@ -52,9 +52,9 @@
 @media only screen and (min-width: 1024px){
     #hebergements{
         background-color: #F2F2F2;
-        margin-right: 30px;
         width: 70%;
         border-radius: 15px;
+        margin-right: 1em;
     }
     
     #grid-hebergements{

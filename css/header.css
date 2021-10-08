@@ -142,9 +142,6 @@ header :nth-child(5) {
 }
 
 @media only screen and (min-width: 504px){
-    header{
-        margin: 0 50px;
-    }
     header nav{
         flex-wrap: nowrap;
         width: 100%;

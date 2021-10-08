@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
 @import url('./header.css');
-@import url('./content.css');
+@import url('./main.css');
 @import url('./footer.css');
 *{
     padding: 0;
@@ -8,8 +8,9 @@
     font-family: 'Raleway';
 }
 @media screen and (min-width: 900px){
-    #content{
+    .basic-margin{
         margin: 0 50px;
+        max-width: 1400px;
     }    
 }
 .grey{

@@ -7,11 +7,16 @@
     margin: 0;
     font-family: 'Raleway';
 }
-@media screen and (min-width: 900px){
+@media screen and (min-width: 900px) and (max-width: 1399px){
     .basic-margin{
-        margin: 0 50px;
-        max-width: 1400px;
+        margin: 0 50px !important;
     }    
+}
+@media only screen and (min-width: 1400px){
+    .basic-margin{
+        margin: 0 auto;
+        max-width: 1400px;
+    }
 }
 .grey{
     color: grey;
@@ -20,16 +25,16 @@ a{
     text-decoration: none;
 }
 .boutonTransparent{
-    transition: 1s;
+    transition: 0.5s;
     padding: 15px;
     margin: 3em 0 1em 2em;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
     border: none;
     font-size: large;
     font-weight: bolder;
     border-radius: 30px;
 }
 .boutonTransparent:hover{
-    transition: 1s;
+    transition: 0.5s;
     background-color: rgba(0, 0, 0, 0.05);
 }

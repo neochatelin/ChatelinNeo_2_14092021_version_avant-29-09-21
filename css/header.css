@@ -75,7 +75,7 @@ header form .fa-map-marker-alt{
     color: white;
     background-color: #0065FC;
 }
-#submit, #input_submit{
+#submit{
     margin-left: -20px;
 }
 #input_submit{

@@ -41,8 +41,7 @@
         margin: 0px;
     }
     #activites h1{
-        margin-top: 20px;
-        margin-bottom: 20px;
+        padding: 2em 0 2em 20px;
     }
     #grid-activites article{
         width: 250px;
@@ -55,7 +54,7 @@
         margin: 0;
     }
     #activites h1{
-        margin-top: 20px;
+        padding: 2em 0 2em 20px;
     }
     #grid-activites{
         display: grid;

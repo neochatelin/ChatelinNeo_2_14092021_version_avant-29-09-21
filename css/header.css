@@ -70,17 +70,17 @@ header form .fa-map-marker-alt{
 }
 #submit, #input_submit{
     padding: 10px;
-    border-radius: 0% 10px 10px 0%;
     border: none;
+    border-radius: 10px;
     color: white;
     background-color: #0065FC;
 }
 #submit, #input_submit{
-    border-radius: 10px;
     margin-left: -20px;
 }
 #input_submit{
     display: none;
+    border-radius: 0% 10px 10px 0%;
 }
 
 #filtres{
@@ -182,7 +182,7 @@ header :nth-child(5) {
 
     header div h2{
         padding: 0;
-        margin-bottom: 1em;
+        margin-bottom: 0.7em;
     }
     header div p{
         padding: 0;

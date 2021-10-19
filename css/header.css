@@ -135,15 +135,14 @@ header form .fa-map-marker-alt{
     padding-top: 3px;
     width: 13px;
     height: 20px;
-    transform: scaleX(0.5);
     transform: scaleY(0.9);
-    margin: 0 10px;
+    float: left;
 }
 header :nth-child(5) {
     margin: 20px 0;
 }
 
-@media only screen and (min-width: 504px){
+@media only screen and (min-width: 550px){
 
 
     header nav{
@@ -205,9 +204,6 @@ header :nth-child(5) {
         display: inline;
         margin: auto 0;
         width: initial;
-    }
-    #info{
-        margin: 0;
     }
 }
 

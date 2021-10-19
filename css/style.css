@@ -7,7 +7,7 @@
     margin: 0;
     font-family: 'Raleway';
 }
-@media screen and (min-width: 900px) and (max-width: 1399px){
+@media screen and (min-width: 504px) and (max-width: 1399px){
     .basic-margin{
         margin: 0 50px !important;
     }    

@@ -137,6 +137,7 @@ header form .fa-map-marker-alt{
     height: 20px;
     transform: scaleX(0.5);
     transform: scaleY(0.9);
+    margin: 0 10px;
 }
 header :nth-child(5) {
     margin: 20px 0;
@@ -204,6 +205,9 @@ header :nth-child(5) {
         display: inline;
         margin: auto 0;
         width: initial;
+    }
+    #info{
+        margin: 0;
     }
 }
 

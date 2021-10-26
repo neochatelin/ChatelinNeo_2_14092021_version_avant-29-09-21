@@ -59,8 +59,8 @@
     #grid-activites{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 1fr 1fr;
-        gap: 20px;
+        grid-template-rows: repeat(2, 223.5px);
+        gap: 41px 43px;
         margin: 20px 0;
     }
     #grid-activites article{
@@ -86,7 +86,6 @@
     }
     #grid-activites article:nth-child(2){
         height: 240px;
-        margin-bottom: auto;
         margin-top: 0;
     }
     #grid-activites article:nth-child(2) a img{
@@ -94,6 +93,7 @@
     }
     #grid-activites article:nth-child(5){
         height: 165px;
+        margin-bottom: 0;
     }
     #grid-activites article:nth-child(5) a img{
         height: 110px;

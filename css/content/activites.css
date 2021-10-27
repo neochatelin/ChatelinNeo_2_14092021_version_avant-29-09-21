@@ -4,6 +4,8 @@
 }
 #activites h1{
     padding-top: 2em;
+    padding-bottom: 32px;
+    padding-left: 20px;
 }
 #grid-activites{
     display: flex;
